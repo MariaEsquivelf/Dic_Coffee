@@ -1,0 +1,211 @@
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  padding-bottom: 75px;
+  min-height: 100%;
+}
+li {
+  list-style: none;
+}
+p, ul {
+  margin: 0;
+  padding: 0;
+}
+div,li {
+  box-sizing: border-box;
+}
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.global_nav_item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 100%;
+}
+.section_inner {
+  padding: 50px 10% 30px;
+}
+.section_innerMenu {
+  padding: 50px 10% 30px;
+  background: url("./images/sample_menu_bg.jpg") no-repeat bottom fixed ;
+  background-size: 180% 180%;
+}
+.key {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  height: 500px;
+  background: center / cover no-repeat url("./images/sample_key.jpg");
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+}
+.key h1{
+
+  font-size: 2.5rem;
+}
+.section_title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.contenido{
+  display: flex;
+  
+}
+.contenedor{
+  display: flex;
+  flex-direction: row ;
+  width: 100%;
+  gap: 2%;
+}
+
+
+.contenidoMenu{
+  background-color: rgb(239, 239, 239);
+  border-radius: 5px;
+  display: flex;  
+  flex-direction: row-reverse;
+  width: 49%;
+  height: 250px;
+  
+  gap: 2%;
+}
+.imagen{
+  border-radius: 5px;
+  width: 55%;
+}
+.texto{
+  position: relative;
+  width: 45%;
+  padding-right: 6px;
+  padding-bottom: 6px;
+}
+.texto h2{
+  font-size: 17px;
+}
+.precio{
+  position: absolute;
+  padding-right: 6px;
+  padding-bottom: 6px;
+  bottom: 0;
+  right: 0;
+}
+.contenido p{
+  flex: 0 0 60%;
+}
+.contenido img{
+  flex: 0 0 35%;
+}
+.fondoCafe{
+  position: relative;
+}
+.menu{
+  position: absolute;
+}
+.menu_title {
+  display: inline-block;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.5rem;  
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+}
+.coffeMenuContenedor{
+  background-color: #fff;
+  margin: 20px;
+  outline: solid 20px rgba(40, 27, 4, 0.505);
+  display: grid;
+  grid-template-columns: 49% 49%;
+  padding: 10px;
+}
+.detalles{
+  display: flex;
+  justify-content: left;
+}
+.detalles img{
+  width: 20%;
+ height: max-content;
+ margin-right: 20px;
+}
+.informacion{
+  display: flex;
+}
+#horario{
+  width: 80px;
+}
+#direccion{
+  width: 80px;
+}
+.center {
+  text-align: center;
+}
+.caffee_menu_image {
+  width: 20%;
+  border-radius: 50%;
+}
+footer{
+  background-color: #251e19;
+  height: 65px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.enlaces{  
+  display: flex; 
+  gap: 20px; 
+  justify-content: center;
+  
+  
+}
+
+
+.enlaces a {
+  text-decoration: none; 
+  position: relative;  
+  color: white; 
+  
+}
+.enlaces a::before {
+  content: "\2022"; /* Código para el punto*/
+  position: absolute; 
+  left: -10px; 
+}
+#logo_footer{
+  width: 70px;
+  height: auto;
+ }
+ footer p{
+  color: white;
+  font-size: 10px;
+  line-height: 30px;
+ }
+
+
